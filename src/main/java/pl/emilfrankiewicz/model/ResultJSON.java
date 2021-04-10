@@ -104,8 +104,8 @@ public class ResultJSON {
 
 	@Override
 	public String toString() {
-		return "ResultJSON [volume=" + volume + ", symbol=" + symbol + ", high=" + high + ", preMarket=" + preMarket
-				+ ", low=" + low + ", from=" + from + ", afterHours=" + afterHours + ", close=" + close + ", open="
-				+ open + ", status=" + status + "]";
+		return "Stock exchange result:" + '\n' + "volume=" + volume + '\n' + "symbol=" + symbol + '\n' + "high="
+				+ high + '\n' + "preMarket=" + preMarket + '\n' + "low=" + low + '\n' + "from=" + from + '\n'
+				+ "afterHours=" + afterHours + '\n' + "close=" + close + '\n' + "open=" + open;
 	}
 }
