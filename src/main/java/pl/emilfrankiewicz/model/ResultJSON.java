@@ -22,6 +22,24 @@ public class ResultJSON {
 
 	private String status;
 
+	public ResultJSON() {
+	}
+
+	public ResultJSON(String volume, String symbol, String high, String preMarket, String low, String from,
+			String afterHours, String close, String open, String status) {
+		super();
+		this.volume = volume;
+		this.symbol = symbol;
+		this.high = high;
+		this.preMarket = preMarket;
+		this.low = low;
+		this.from = from;
+		this.afterHours = afterHours;
+		this.close = close;
+		this.open = open;
+		this.status = status;
+	}
+
 	public String getVolume() {
 		return volume;
 	}
@@ -104,8 +122,8 @@ public class ResultJSON {
 
 	@Override
 	public String toString() {
-		return "Stock exchange result:" + '\n' + "volume=" + volume + '\n' + "symbol=" + symbol + '\n' + "high="
-				+ high + '\n' + "preMarket=" + preMarket + '\n' + "low=" + low + '\n' + "from=" + from + '\n'
-				+ "afterHours=" + afterHours + '\n' + "close=" + close + '\n' + "open=" + open;
+		return "Stock exchange result:" + '\n' + "volume=" + volume + '\n' + "symbol=" + symbol + '\n' + "high=" + high
+				+ '\n' + "preMarket=" + preMarket + '\n' + "low=" + low + '\n' + "from=" + from + '\n' + "afterHours="
+				+ afterHours + '\n' + "close=" + close + '\n' + "open=" + open;
 	}
 }

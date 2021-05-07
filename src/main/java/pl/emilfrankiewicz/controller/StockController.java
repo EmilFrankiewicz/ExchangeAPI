@@ -28,7 +28,7 @@ public class StockController {
 	}
 
 	@RequestMapping(value = "/api/ExchangeAPI/{date}/{companyName}", method = RequestMethod.GET)
-	public ResultJSON CurrentStockByName(@PathVariable("date") @DateTimeFormat(iso = ISO.DATE) String date,
+	public ResultJSON currentStockByName(@PathVariable("date") @DateTimeFormat(iso = ISO.DATE) String date,
 			@PathVariable("companyName") String company) throws ResourceDoesNotExistException {
 
 		try {
