@@ -10,8 +10,8 @@
 ExchangeAPI give you possibility to check basic info about stock exchange results of given company by symbol and date. You can also send this result on your email after authorization using oauth2 (github)
 	
 ## Technologies
-Spring (Boot, Web, Security)
-OAuth2 2.0 (github)
+Spring (Boot, Web, Security),
+OAuth2 2.0 (github),
 JavaMail
 
 ## API
@@ -34,3 +34,7 @@ java -jar target/ExchangeAPI-0.0.1-SNAPSHOT.jar
 ```
 
 ## Screens
+![Postman](https://raw.githubusercontent.com/EmilFrankiewicz/ExchangeAPI/main/screens/postman.png)
+
+![MailResults](https://raw.githubusercontent.com/EmilFrankiewicz/ExchangeAPI/main/screens/mail.png)
+
