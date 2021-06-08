@@ -11,7 +11,7 @@ ExchangeAPI give you possibility to check basic info about stock exchange result
 	
 ## Technologies
 Spring (Boot, Web, Security),
-OAuth2 2.0 (github),
+OAuth2 (github),
 JavaMail
 
 ## API
